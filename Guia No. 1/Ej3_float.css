@@ -1,0 +1,31 @@
+#texto1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150;
+    text-align: justify;
+    float: left;  
+    width: 80%;  
+}
+#p_texto1{
+    text-align: center;
+    margin-bottom: 2em;
+}
+#imagen1{
+    width: 20%;
+    float: right;
+}
+#separado{
+    clear: both;
+}
+#texto2{
+    font-size: 120%;
+    text-align: justify;
+    width: 75%;
+    float: right;
+}
+#p_texto2{
+    text-align: center;
+}
+#imagen2{
+    width: 25%;
+    float: left;
+}
