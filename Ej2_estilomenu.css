@@ -2,12 +2,10 @@
     list-style-type:none; /*Quita los puntos de la lista*/
     margin:20px;
     padding:20px;
-    overflow:hidden;/*El contenido es recortado y no se muestran barras de desplazamiento. El contenido
-                      se ubica en la siguiente línea*/
+    overflow:hidden;/*El contenido es recortado y no se muestran barras de desplazamiento. El contenido se ubica en la siguiente línea*/
     background-color:#D6AFDC;
 }
-.xli{float:left;} /*En lugar de poner li uno debajo del otro, hacemos que floten a la izquierda,
-                    es decir, se ponen uno al lado del otro. Se ponen ya como un menú. */
+.xli{float:left;} /*En lugar de poner li uno debajo del otro, hacemos que floten a la izquierda, es decir, se ponen uno al lado del otro. Se ponen ya como un menú. */
 .xli a{
     color:black;
     text-align:center;
