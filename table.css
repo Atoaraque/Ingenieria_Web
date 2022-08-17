@@ -1,0 +1,12 @@
+.parrafo{
+    color:dark;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 20px;
+}
+#acesso{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:lightcyan;
+    background-color:darkolivegreen;
+}
