@@ -1,12 +1,39 @@
 .parrafo{
-    color:dark;
+    color: rgb(7, 0, 134);
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
-    font-size: 20px;
-}
-#acesso{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    color:lightcyan;
-    background-color:darkolivegreen;
+}
+#acceso{
+    font-family: cursive;
+    font-size: 15px;
+    color: blueviolet;
+    background-color: thistle;    
+}
+#recuadro{
+    background-image: url("img1.jpg");
+    color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+#recuadro1{
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+}
+#recuadro1 :hover{
+    width: 30px;
+}
+#recuadro2 {
+    border-radius: 20px;
+    background-color: #fff000;
+    width: 200px;
+    padding: 10px;
+    transition: width 2s;
+}
+#recuadro2 :hover{
+    width: 300px;
 }
