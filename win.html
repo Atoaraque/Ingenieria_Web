@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objeto Window</title>
+</head>
+<body>
+    <form action="">
+        <input type="button" value="open()" onclick="abrir()">
+        <input type="button" value="alert" onclick="mostrarAlerta()">
+        <input type="button" value="confirm" onclick="confirmar()">
+        <input type="button" value="prompt" onclick="cargarCadena()">
+    </form>
+    <script>
+        function abrir(){
+            let venatana=open();
+            ventana.document.write("Estoy escribiendo en la nueva ventana<br>");
+            ventana.document.write("Estoy escribiendo en la segunda linea<br>");
+        }
+        function mostrarAlerta(){
+            alert("Esta ventana muestra una ALERTA EMERGENTE");
+        }
+        function confirmar(){
+            let respuesta=confirm("Presione algunos de los botones.");
+            if(respuesta==true)
+            alert("Presiono ACEPTAR");
+            else
+            alert("Presiono CANCELAR");
+        }
+        function cargarCadena(){
+            let cad=prompt("Escriba un texto");
+            alert("Usted ingreso: "+cad);
+        }
+        //Propiedades del objeto "Screen"
+        document.write("<br>"+"availHeight: "+screen.availHeight+"<br>");
+        document.write("availWidth: "+screen.availWidth+"<br>");
+        document.write("Height: "+screen.height+"<br>");
+        document.write("Width: "+screen.width+"<br>");
+        document.write("colorDepth: "+screen.colorDepth+"<br>");
+        //...
+        //Propiedades del "Navegador"
+        document.write("<br>"+"AppName: "+navigator.appName+"<br>");
+        document.write("AppVersion: "+navigator.appVersion+"<br>");
+        document.write("cookieEnable: "+navigator.cookieEnabled+"<br>");
+        document.write("Complementos: "+navigator.plugins+"<br>");
+    </script>
+</body>
+</html>
