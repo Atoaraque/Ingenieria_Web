@@ -8,7 +8,7 @@ class Display{
         this.valorAnterior = '';
         this.signos = {
             sumar: '+',
-            dividir: '%',
+            dividir: '÷',
             multiplicar: 'x',
             restar: '-', 
         }
@@ -47,7 +47,7 @@ class Display{
         const valorAnterior = parseFloat(this.valorAnterior);
         const valorActual = parseFloat(this.valorActual);
 
-        if( isNaN(valorActual)  || isNaN(valorAnterior) ) return
+        if(isNaN(valorActual) || isNaN(valorAnterior)) return
         this.valorActual = this.calculador[this.tipoOperacion](valorAnterior, valorActual);
     }
 }
